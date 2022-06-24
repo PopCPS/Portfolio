@@ -85,21 +85,57 @@
     background: #EAF2FD;
     display: flex;
     flex-direction: column;
-    padding: 64px;
+    padding: 10%;
 }
 
 .conteudo__sobremim__titulo {
     font-size: 32px;
     font-weight: 700;
-    padding: 0 10% 0 10%;
+    margin-bottom: 2%;
 }
 
 .conteudo__sobremim__texto {
     font-size: 16px;
     font-weight: 600;
-    padding: 0 10% 0 10%;
     width: 60%;
 }
+
+.conteudo__skills__lista, .conteudo__hobbies__lista {
+    display: flex;
+    background: #F5F5F5;
+    gap: 1%;
+    justify-content: center;
+}
+
+.conteudo__skills__titulo, .conteudo__hobbies__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 3%;
+    background: #F5F5F5;
+}
+
+.conteudo__skills__lista__items, .conteudo__hobbies__lista__items {
+    width: 176px;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    justify-content: flex-end;
+    background: #FFFFFF;
+}
+
+.conteudo__skills__lista__img, .conteudo__hobbies__lista__img {
+    height: auto;
+    width: 50px;
+}
+
+.conteudo__skills__lista__txt, .conteudo__hobbies__lista__txt {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5% 0;
+}
+
 
 @media screen and (min-width: 0) {
 
