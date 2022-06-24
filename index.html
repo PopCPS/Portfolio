@@ -4,56 +4,85 @@
     <head>
         <meta charset = "UTF-8">
         <meta name="viewport" content="width=device-width">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css"> 
     </head>
-    <body>
+    <body class="app">
         <header class="cabecalho">
             <nav class="cabecalho__menu"> 
                 <h3 class="cabecalho__nome">Artur Coelho</h3>
                 <ul class="cabecalho__lista">
                     <li class="cabecalho__items">
-                        Sobre mim
+                        <a class="cabecalho__link">Sobre mim</a>
                     </li>
                     <li class="cabecalho__items">
-                        Skills
+                        <a class="cabecalho__link">Skills</a>
                     </li>
                     <li class="cabecalho__items">
-                        Hobbies
+                        <a class="cabecalho__link">Hobbies</a>
                     </li>
                     <li class="cabecalho__items">
-                        Formação
+                        <a class="cabecalho__link">Formação</a>
                     </li>
                     <li class="cabecalho__items">
-                        Projetos
+                        <a class="cabecalho__link">Projetos</a>
                     </li>
-                    <li class="cabecalho__items">arturcoelhocps@gmail.com</li>
+                    <li class="cabecalho__items">
+                        <a class="cabecalho__link"  >arturcoelhocps@gmail.com</a>
+                    </li>
                 </ul>
             </nav>
             <div class="cabecalho__sobre">
-                <h1 class="cabecalho_sobre__eu">Olá, meu nome é Artur e sou um Junior Dev</h1>
-                <h3 class="cabecalho__sobre__curso">Estou cursando engenharia elétrica e estou participando do projeto Oracle ONE na Alura</h3>
-                <nav>
-                    <ul class="cabecalho__sobre__lista">
-                        <li class="cabecalho__sobre__item">
-                            <a href="https://github.com/PopCPS" target="_blank">Github</a>
-                        </li>
-                        <li class="cabecalho__sobre__item">
-                            <a href="https://www.linkedin.com/in/artur-coelho-194202225/" target="_blank">Linkedin</a>
-                        </li>
-                        <li class="cabecalho__sobre__item">
-                            <a href="https://www.instagram.com/artur_cps/" target="_blank">Instagram</a>
-                        </li>
-                        <li class="cabecalho__sobre__item">Currículo</li>
-                    </ul>
-                </nav>
-                <img class="foto__eu" src="img/Foto-1.png">
+                <div class="cabecalho__sobre__conteudo">
+                    <h1 class="cabecalho__sobre__eu">Olá, meu nome é Artur e sou um Junior Dev</h1>
+                    <h3 class="cabecalho__sobre__curso">Estou cursando engenharia elétrica e estou participando do projeto Oracle ONE na Alura</h3>
+                    <nav>
+                        <ul class="cabecalho__sobre__lista">
+                            <li class="cabecalho__sobre__items">
+                                <a class="cabecalho__sobre__link" href="https://github.com/PopCPS" target="_blank">Github</a>
+                            </li>
+                            <li class="cabecalho__sobre__items">
+                                <a class="cabecalho__sobre__link" href="https://www.linkedin.com/in/artur-coelho-194202225/" target="_blank">Linkedin</a>
+                            </li>
+                            <li class="cabecalho__sobre__items">
+                                <a class="cabecalho__sobre__link" href="https://www.instagram.com/artur_cps/" target="_blank">Instagram</a>
+                            </li>
+                            <li class="cabecalho__sobre__item">
+                                <a class="cabecalho__sobre__link">Currículo</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <img class="cabecalho__sobre__foto" src="img/Foto-1.png">
             </div>
         </header>
-        <main>
+        <main class="conteudo">
+            <div class="conteudo__sobremim">
+                <h1 class="conteudo__sobremim__titulo">Sobre mim</h1>
+                <p class="conteudo__sobremim__texto">
+                    Sou um frontend dev junior apaixonado por tecnologia, atualmente aluno do programa Oracle
+                    ONE. Busco novas experiencias no mundo da programação utilizando minhas habiliadades em 
+                    JAVASCRIPT, CSS e HTML.
+                </p>
+            </div>
+            <div>
 
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
+            <div>
+                
+            </div>
         </main>
-        <footer>
+        <footer class="rodape">
 
         </footer>
     </body>
