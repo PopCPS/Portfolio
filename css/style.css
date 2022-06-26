@@ -185,6 +185,10 @@
     font-weight: 700;
 }
 
+.conteudo__projetos__info__btn__rep:hover {
+    background-color: #DAE8FB;
+}
+
 .conteudo__projetos__info__btn__demo {
     width: 100px;
     height: 50px;
@@ -194,6 +198,10 @@
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
+}
+
+.conteudo__projetos__info__btn__demo:hover {
+    background-color: #5A97ED;
 }
 
 .conteudo__projetos__info {
