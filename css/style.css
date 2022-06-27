@@ -140,6 +140,39 @@
     margin: 5% 0;
 }
 
+.conteudo__formacao {
+    background: #EAF2FD;
+    padding-bottom: 15vh;
+}
+
+.conteudo__formacao__titulo {
+    text-align: center;
+    font-weight: 700;
+    font-size: 32px;
+    padding: 3%;
+}
+
+.conteudo__formacao__cursos {
+    display: flex;
+    justify-content: center;
+    column-gap: 1vw;
+}
+
+.conteudo__formacao__cursos__columns__info {
+    line-height: 1.5rem;
+}
+
+.conteudo__formacao__cursos__columns__info__titulo {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.conteudo__formacao__cursos__columns__img {
+    width: 192px;
+    padding:  73px 88px;
+    background-color: #FFFFFF;
+}
+
 .conteudo__projetos {
     display: flex;
     flex-direction: column;
@@ -175,14 +208,23 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
 }
 
+.conteudo__projetos__info__btn {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .conteudo__projetos__info__btn__rep {
-    width: 100px;
     height: 50px;
+    padding: 3px 12px;
     border: 2px solid #2A7AE4;
     color: #2A7AE4;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .conteudo__projetos__info__btn__rep:hover {
@@ -190,14 +232,17 @@
 }
 
 .conteudo__projetos__info__btn__demo {
-    width: 100px;
     height: 50px;
+    padding: 3px 12px;
     border: 2px solid #2A7AE4;
     background-color: #2A7AE4;
     color: #F5F5F5;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
 }
 
 .conteudo__projetos__info__btn__demo:hover {
@@ -210,11 +255,28 @@
     justify-content: center;
     row-gap: .5rem;
     text-align: center;
-    
+    width: 230px;
 }
 
 .conteudo__projetos__info__titulo {
     font-size: 1.5rem;
+}
+
+.conteudo__contato {
+    background-color: #EAF2FD;
+}
+
+.rodape {
+    border-bottom: 5px solid #607ca8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+}
+
+.rodape__feitoPor, .rodape__ano {
+    font-size: 20px
 }
 
 
