@@ -17,19 +17,19 @@
                 <h3 class="cabecalho__nome">Artur Coelho</h3>
                 <ul class="cabecalho__lista">
                     <li class="cabecalho__items">
-                        <a class="cabecalho__link">Sobre mim</a>
+                        <a class="cabecalho__link" href="#sobreMim">Sobre mim</a>
                     </li>
                     <li class="cabecalho__items">
-                        <a class="cabecalho__link">Skills</a>
+                        <a class="cabecalho__link" href="#skills">Skills</a>
                     </li>
                     <li class="cabecalho__items">
-                        <a class="cabecalho__link">Hobbies</a>
+                        <a class="cabecalho__link" href="#hobbies">Hobbies</a>
                     </li>
                     <li class="cabecalho__items">
-                        <a class="cabecalho__link">Formação</a>
+                        <a class="cabecalho__link" href="#formacao">Formação</a>
                     </li>
                     <li class="cabecalho__items">
-                        <a class="cabecalho__link">Projetos</a>
+                        <a class="cabecalho__link" href="#projetos">Projetos</a>
                     </li>
                     <li class="cabecalho__items">
                         <a class="cabecalho__link"  >arturcoelhocps@gmail.com</a>
@@ -61,7 +61,7 @@
             </div>
         </header>
         <main class="conteudo">
-            <div class="conteudo__sobremim">
+            <div class="conteudo__sobremim" id="sobreMim">
                 <h2 class="conteudo__sobremim__titulo">Sobre mim</h2>
                 <p class="conteudo__sobremim__texto">
                     Sou um frontend dev junior apaixonado por tecnologia, atualmente aluno do programa Oracle
@@ -70,7 +70,7 @@
                 </p>
             </div>
             <div class="conteudo__skills__hobbies">
-                <h2 class="conteudo__skills__titulo">Skills</h2>
+                <h2 class="conteudo__skills__titulo" id="skills">Skills</h2>
                 <div class="conteudo__skills__lista">
                     <div class="conteudo__skills__lista__items">
                         <img class="conteudo__skills__lista__img" src="img/HTML.png">
@@ -89,7 +89,7 @@
                         <p class="conteudo__skills__lista__txt">Git</p>
                     </div>
                 </div>
-                <h3 class="conteudo__hobbies__titulo">Hobbies</h3>
+                <h3 class="conteudo__hobbies__titulo" id="hobbies">Hobbies</h3>
                 <div class="conteudo__hobbies__lista">
                     <div class="conteudo__hobbies__lista__items">
                         <img class="conteudo__hobbies__lista__img" src="img/RPG.png">
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="conteudo__formacao">
+            <div class="conteudo__formacao" id="formacao">
                 <h2 class="conteudo__formacao__titulo">Formação</h2>
                 <div class="conteudo__formacao__cursos">
                     <div class="conteudo__formacao__cursos__columns">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="conteudo__projetos">
+            <div class="conteudo__projetos" id="projetos">
                 <h2 class="conteudo__projetos__titulo">Projetos</h2>
                 <div class="conteudo__projetos__1">
                     <img class="conteudo__projetos__img" src="img/codif.png">
@@ -179,27 +179,33 @@
                 </div>
             </div>
             <div class="conteudo__contato">
-                <h2 class="conteudo__contato__titulo">Contato</h2>
+                <img class="conteudo__contato__img" src="img/contato-img.png">
                 <div class="conteudo__contato__conteudo">
-                    <img class="conteudo__contato__conteudo__img">
+                    <h2 class="conteudo__contato__conteudo__titulo">Contato</h2>
+                    <p class="conteudo__contato__conteudo__txt">Quer entrar em contato comigo? <br>
+                        Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                     <form class="conteudo__contato__conteudo__form">
                         <div class="conteudo__contato__conteudo__form__area">
-                            <label for="nome">Nome:</label>
-                            <input type="text" id="nome">
+                            <label class="conteudo__contato__conteudo__form__area__label" for="nome">Nome:</label>
+                            <input class="conteudo__contato__conteudo__form__area__input" type="text" id="nome" data-tipo="nome" maxlength="50" required>
+                            <span class="input__mensagem__erro"></span>
                         </div>
                         <div class="conteudo__contato__conteudo__form__area">
-                            <label for="email">Email:</label>
-                            <input type="text" id="email">
+                            <label class="conteudo__contato__conteudo__form__area__label" for="email">Email:</label>
+                            <input class="conteudo__contato__conteudo__form__area__input" type="email" id="email" data-tipo="email" required>
+                            <span class="input__mensagem__erro"></span>
                         </div>
                         <div class="conteudo__contato__conteudo__form__area">
-                            <label for="Assunto">Assunto:</label>
-                            <input type="text" id="assunto">
+                            <label class="conteudo__contato__conteudo__form__area__label" for="Assunto">Assunto:</label>
+                            <input class="conteudo__contato__conteudo__form__area__input" type="text" id="assunto" data-tipo="assunto" maxlength="50" required>
+                            <span class="input__mensagem__erro"></span>
                         </div>
                         <div class="conteudo__contato__conteudo__form__area">
-                            <label for="mensagem">Mensagem:</label>
-                            <input type="text" id="mensagem">
+                            <label class="conteudo__contato__conteudo__form__area__label" for="mensagem">Mensagem:</label>
+                            <textarea class="conteudo__contato__conteudo__form__area__textArea" id="mensagem" data-tipo="mensagem" maxlength="300" placeholder="" required></textarea>
+                            <span class="input__mensagem__erro"></span>
                         </div>
-                        <input class="conteudo__contato__conteudo__form__submit" type="submit">
+                        <input class="conteudo__contato__conteudo__form__submit" type="submit" value="Enviar men">
                     </form>
                 </div>
             </div>
@@ -209,5 +215,5 @@
             <h2 class="rodape__ano">2022</h2>
         </footer>
     </body>
-    <script src="js/validacao-form.js"></script>
+    <script src="js/validacao-form.js" type="module"></script>
 </html>
