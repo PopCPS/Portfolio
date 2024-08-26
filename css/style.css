@@ -117,6 +117,7 @@ html {
     background: #F5F5F5;
     gap: 1%;
     justify-content: center;
+    flew-wrap: wrap;
 }
 
 .conteudo__hobbies__lista {
@@ -666,7 +667,6 @@ html {
     .conteudo__skills__lista, .conteudo__hobbies__lista {
         justify-content: center;
         column-gap: 8px;
-        flex-wrap: nowrap;
     }
 
     .conteudo__formacao__cursos__columns__img {
@@ -710,6 +710,7 @@ html {
 
     .conteudo__projetos__1, .conteudo__projetos__2, .conteudo__projetos__3, .conteudo__projetos__4 {
         column-gap: 26px;
+        justify-content: center;
     }
 
     .conteudo__projetos__info {
@@ -724,29 +725,5 @@ html {
     .conteudo__projetos__info__sobre {
         margin: 0;
         font-size: 16px;
-    }
-
-    .conteudo__contato {
-        padding: 130px;
-        column-gap: 16px;
-        height: auto;
-        align-content: flex-start;
-    }
-
-    .conteudo__contato__img {
-        display: flex;
-        height: auto;
-    }
-
-    .conteudo__contato__conteudo__titulo, .conteudo__contato__conteudo__txt, .conteudo__contato__conteudo__form__area {
-        margin: 16px 0;
-    }
-
-    .conteudo__contato__conteudo__form__submit {
-        margin: 0;
-    }
-
-    .conteudo__contato__conteudo {
-        row-gap: 32px;
     }
 }
